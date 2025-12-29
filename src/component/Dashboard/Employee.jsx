@@ -4,7 +4,7 @@ import { useState } from "react";
 import ListOfTask from "../others/ListOfTask";
 import TaskList from "../TaskList/TaskList";
 const  Employee = (props) =>{
-   console.log(props.data)
+   //console.log(props.data)
     return(
         <>
       <div className="px-6 py-12">

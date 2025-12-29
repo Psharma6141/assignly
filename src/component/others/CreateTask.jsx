@@ -101,7 +101,7 @@ function CreateTask() {
                 </div>
                 <div >
                     <div>
-                        <h2>Descriptionription</h2>
+                        <h2>Description</h2>
                         <textarea
                             value={description}
                             onChange={(e) => {

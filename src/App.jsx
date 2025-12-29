@@ -10,15 +10,15 @@ function App() {
  // localStorage.clear()
 
 
-    useEffect (() =>{
-     setLocalStorage()
-    getLocalStorage()
-    },[])
-        
-  const [user, setUser] = useState(null)
-  const [loggedInUserData, setloggedInUserData] = useState(null)
-  const [userData, setUserData]  = useContext(AuthContext)
-  
+ const [user, setUser] = useState(null)
+ const [loggedInUserData, setloggedInUserData] = useState(null)
+ const [userData, setUserData]  = useContext(AuthContext)
+ 
+ useEffect (() =>{
+  setLocalStorage()
+ getLocalStorage()
+ },[])
+     
   //console.log(userData)
 
   useEffect(()=>{
@@ -45,7 +45,6 @@ function App() {
       alert("Invalid Credentials")
     }
   }
-
 
   return (
     <>
